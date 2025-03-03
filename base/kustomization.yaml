@@ -4,3 +4,7 @@ resources:
 - rollout.yaml
 - service.yaml
 - preview-service.yaml
+images:
+- name: rragavendira/voteargo
+  newName: rragavendira/voteargo
+  newTag: 93fcc78
