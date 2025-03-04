@@ -12,7 +12,7 @@ spec:
             spec:
               containers:
               - name: siege
-                image: schoolofdevops/loadtest:v1
+                image: rragavendira/loadtest:v1
                 command:
                   - siege
                   - "--concurrent=2"
