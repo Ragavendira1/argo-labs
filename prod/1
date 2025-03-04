@@ -1,11 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- ../base
+- ../basei
 - ingress.yaml
-- fitness-analysistemplate.yaml
-- latency-analysistemplate.yaml
-- loadtest-analysistemplate.yaml
 namespace: prod
 commonAnnotations:
   supported-by: sre@example.com
