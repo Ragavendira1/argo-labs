@@ -7,4 +7,4 @@ resources:
 images:
 - name: rragavendira/voteargo
   newName: rragavendira/voteargo
-  newTag: 27df783
+  newTag: 2e26c67
